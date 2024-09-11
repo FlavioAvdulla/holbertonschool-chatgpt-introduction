@@ -1,72 +1,59 @@
 # Debugging and Documentation Tasks
 
-This repository contains a series of tasks aimed at practicing debugging, documentation, and error handling using Python, HTML/JavaScript, and game logic implementations. Each task has a specific objective and corresponding code to work on.
+This repository contains various tasks aimed at debugging and documenting code using ChatGPT. Each task focuses on a specific file and objective.
 
-## Table of Contents
+## Tasks
 
-1. [Debugging - Python Factorial](#debugging---python-factorial)
-2. [Debugging - Python Arguments](#debugging---python-arguments)
-3. [Debugging - HTML / Javascript](#debugging---html--javascript)
-4. [Debugging - Python Mines](#debugging---python-mines)
-5. [Documentation - Python Factorial](#documentation---python-factorial)
-6. [Error Handling - Python Checkbook](#error-handling---python-checkbook)
-7. [Debugging - Tic Tac Toe Python](#debugging---tic-tac-toe-python)
+### 0. Debugging - Python Factorial
+- **Objective**: Use ChatGPT to identify and correct errors in code samples.
+- **File**: [Click Here](factorial.py)
 
-## Task Descriptions
+### 1. Debugging - Python Arguments
+- **Objective**: Use ChatGPT to identify and correct errors in code samples.
+- **File**: [Click Here](print_arguments.py)
 
-### 1. Debugging - Python Factorial
+### 2. Debugging - HTML / Javascript
+- **Objective**: Use ChatGPT to identify and correct errors in code samples.
+- **File**: [Click Here](change_background.html)
 
-**Objective:**  
-Identify and correct errors in a Python code sample that calculates the factorial of a number.
+### 3. Debugging - Python Mines
+- **Objective**: Use ChatGPT to identify and correct errors in code samples.
+- **Game Overview**: Minesweeper is a puzzle game where the player must clear a field of hidden “mines” without detonating any of them, using clues about the number of neighboring mines in each field.
+- **File**: [Click Here](mines.py)
 
-### 2. Debugging - Python Arguments
+### 4. Documentation - Python Factorial
+- **Objective**: Use ChatGPT to document the code.
+- **File**: [Click Here](factorial_recursive.py)
 
-**Objective:**  
-Identify and correct errors in a Python code sample related to handling command-line arguments.
+### 5. Error Handling - Python Checkbook
+- **Objective**: Use ChatGPT to document the code.
+- **File**: [Click Here](checkbook.py)
 
-### 3. Debugging - HTML / Javascript
-
-**Objective:**  
-Identify and correct errors in a sample code that combines HTML and JavaScript.
-
-### 4. Debugging - Python Mines
-
-**Objective:**  
-Identify and correct errors in a Python implementation of the Minesweeper game logic.
-
-**Game Overview:**  
-Minesweeper is a puzzle game where the player must clear a field of hidden "mines" without detonating any of them, using clues about the number of neighboring mines in each field.
-
-### 5. Documentation - Python Factorial
-
-**Objective:**  
-Document a Python code sample that calculates the factorial of a number, explaining how the code works and any important details.
-
-### 6. Error Handling - Python Checkbook
-
-**Objective:**  
-Document a Python code sample that simulates a simple checkbook application, focusing on error handling and best practices.
-
-### 7. Debugging - Tic Tac Toe Python
-
-**Objective:**  
-Identify and correct multiple errors in a Python implementation of the Tic Tac Toe game.
-
-**Game Overview:**  
-Players alternate placing "X" or "O" on a 3x3 board, aiming to get three in a row horizontally, vertically, or diagonally to win.
+### 6. Debugging - Tic Tac Toe Python
+- **Objective**: Use ChatGPT to identify and correct errors in code samples. (There may be several errors in the code)
+- **Game Overview**: Players alternate placing “X” or “O” on a 3x3 board, aiming to get three in a row horizontally, vertically, or diagonally to win.
+- **File**: [Click Here][Click Here]
 
 ## How to Use
 
-Each task is located in its own directory with the respective code file(s). Follow the instructions within each task's directory to complete the debugging, documentation, or error handling exercises.
+1. **Clone the repository**:
+    ```bash
+    git clone <repository-url>
+    ```
 
-## Requirements
+2. **Navigate to the task directory**:
+    ```bash
+    cd <task-directory>
+    ```
 
-- Python 3.x
-- Basic knowledge of HTML/JavaScript
-- A text editor or IDE for editing code
-- Command-line access for running Python scripts
+3. **Open the file in your preferred code editor**.
+
+4. **Use ChatGPT** to identify and correct errors or document the code as specified in the objectives.
+
+## Contributing
+
+Feel free to fork this repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
 
-This repository is for educational purposes only. All code and documentation are provided as-is.
-
+This project is licensed under the MIT License - see the LICENSE file for details.
